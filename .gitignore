@@ -1,0 +1,39 @@
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+workspace
+Atomic-Unsafe-vip-course04/target/
+Executor-vip-course06/target/
+JMM&volatile-vip-course01/target/
+collection-Queue-vip-course05/target/
+juc-tools-vip-course03/target/
+synchronized-Lock-AQS-vip-course02/target/
+future-fork-join-vip-course08/target/
+/JMM-volatile-vip-course01/target/
+/ScheduledThreadPoolExecutor-vip-course09/target/

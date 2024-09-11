@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent.Executors</OriginalElement>
+  <nodes>
+    <node x="509.49336584509797" y="440.54436343544853">java.util.concurrent.Executors.RunnableAdapter</node>
+    <node x="924.25" y="514.1675838434182">java.util.concurrent.AbstractExecutorService</node>
+    <node x="1239.2454483871506" y="320.13586622243344">java.util.concurrent.Executors.DefaultThreadFactory</node>
+    <node x="767.1670335373673" y="363.52149828647805">java.util.concurrent.Executor</node>
+    <node x="859.5" y="596.7199537944864">java.util.concurrent.Executors.DelegatedExecutorService</node>
+    <node x="227.62914157333483" y="278.57606635645686">java.util.concurrent.Callable</node>
+    <node x="189.20337635545263" y="492.1537744293145">java.util.concurrent.Executors.PrivilegedCallableUsingCurrentClassLoader</node>
+    <node x="771.9586543451964" y="154.9946186515665">java.util.concurrent.Executors</node>
+    <node x="949.9324693696626" y="679.2723237455546">java.util.concurrent.Executors.FinalizableDelegatedExecutorService</node>
+    <node x="296.7087845214105" y="440.54436343544853">java.util.concurrent.Executors.PrivilegedCallable</node>
+    <node x="1194.6167664116408" y="443.1725456854994">java.util.concurrent.Executors.PrivilegedThreadFactory</node>
+    <node x="1316.9166834874713" y="236.07577560610514">java.util.concurrent.ThreadFactory</node>
+    <node x="742.1670335373673" y="443.1725456854994">java.util.concurrent.ExecutorService</node>
+    <node x="583.0325684115286" y="679.2723237455546">java.util.concurrent.Executors.DelegatedScheduledExecutorService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.Executors.DefaultThreadFactory" target="java.util.concurrent.ThreadFactory" relationship="REALIZATION">
+      <point x="50.5" y="-14.0" />
+      <point x="1390.7454483871506" y="243.6845242642765" />
+      <point x="1392.4166834874713" y="243.6845242642765" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.AbstractExecutorService" target="java.util.concurrent.ExecutorService" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1032.75" y="495.52149828647805" />
+      <point x="822.1670335373673" y="495.52149828647805" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedScheduledExecutorService" target="java.util.concurrent.ExecutorService" relationship="REALIZATION">
+      <point x="-34.716987142356174" y="-15.668846525239701" />
+      <point x="700.3155812691724" y="671.3774786491348" />
+      <point x="699.8651466087929" y="671.3774786491348" />
+      <point x="699.8651466087929" y="495.5214982864781" />
+      <point x="769.0492217899508" y="495.5214982864781" />
+      <point x="769.0492217899508" y="495.52149828647805" />
+      <point x="822.1670335373673" y="495.52149828647805" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.RunnableAdapter" target="java.util.concurrent.Executors" relationship="INNER_CLASS">
+      <point x="50.75" y="-14.0" />
+      <point x="661.743365845098" y="218.0" />
+      <point x="830.4586543451964" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.FinalizableDelegatedExecutorService" target="java.util.concurrent.Executors.DelegatedExecutorService" relationship="GENERALIZATION">
+      <point x="-76.25" y="-14.0" />
+      <point x="1026.1824693696626" y="658.831591053686" />
+      <point x="975.0" y="658.831591053686" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DefaultThreadFactory" target="java.util.concurrent.Executors" relationship="INNER_CLASS">
+      <point x="-50.5" y="-14.0" />
+      <point x="1289.7454483871506" y="218.0" />
+      <point x="830.4586543451964" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedExecutorService" target="java.util.concurrent.Executors" relationship="INNER_CLASS">
+      <point x="-57.75" y="-14.0" />
+      <point x="917.25" y="218.0" />
+      <point x="830.4586543451964" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedCallable" target="java.util.concurrent.Executors" relationship="INNER_CLASS">
+      <point x="51.25" y="-14.0" />
+      <point x="450.4587845214105" y="218.0" />
+      <point x="830.4586543451964" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedExecutorService" target="java.util.concurrent.AbstractExecutorService" relationship="GENERALIZATION">
+      <point x="57.75" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.RunnableAdapter" target="java.util.concurrent.Callable" relationship="REALIZATION">
+      <point x="-50.75" y="-14.0" />
+      <point x="560.243365845098" y="377.52149828647805" />
+      <point x="296.12914157333483" y="377.52149828647805" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedScheduledExecutorService" target="java.util.concurrent.Executors" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="735.0325684115286" y="218.0" />
+      <point x="830.4586543451964" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedThreadFactory" target="java.util.concurrent.Executors.DefaultThreadFactory" relationship="GENERALIZATION">
+      <point x="36.128681975509835" y="-14.530440040690053" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedCallable" target="java.util.concurrent.Callable" relationship="REALIZATION">
+      <point x="-51.25" y="-14.0" />
+      <point x="347.9587845214105" y="377.52149828647805" />
+      <point x="296.12914157333483" y="377.52149828647805" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedThreadFactory" target="java.util.concurrent.Executors" relationship="INNER_CLASS">
+      <point x="-85.6793351998972" y="-14.95504836915677" />
+      <point x="1218.4374312117436" y="218.0" />
+      <point x="830.4586543451964" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.ExecutorService" target="java.util.concurrent.Executor" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.FinalizableDelegatedExecutorService" target="java.util.concurrent.Executors" relationship="INNER_CLASS">
+      <point x="76.25" y="-14.0" />
+      <point x="1178.6824693696626" y="218.0" />
+      <point x="830.4586543451964" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedCallableUsingCurrentClassLoader" target="java.util.concurrent.Callable" relationship="REALIZATION">
+      <point x="-95.0" y="-14.0" />
+      <point x="284.20337635545263" y="377.52149828647805" />
+      <point x="296.12914157333483" y="377.52149828647805" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedScheduledExecutorService" target="java.util.concurrent.Executors.DelegatedExecutorService" relationship="GENERALIZATION">
+      <point x="101.33333333333326" y="-14.0" />
+      <point x="836.3659017448618" y="657.5454774939969" />
+      <point x="975.0" y="657.5454774939969" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedCallableUsingCurrentClassLoader" target="java.util.concurrent.Executors" relationship="INNER_CLASS">
+      <point x="127.59348664659194" y="-14.650184349717847" />
+      <point x="506.7968630020446" y="218.0" />
+      <point x="830.4586543451964" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.7556761305536936" showDependencies="false" x="851.6324514041305" y="460.85960296115206" />
+  <SelectedNodes>
+    <node>java.util.concurrent.Executors.DefaultThreadFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>内部类</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
